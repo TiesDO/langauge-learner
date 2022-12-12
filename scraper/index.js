@@ -1,8 +1,8 @@
-import { GetEnglishVerbList } from './modules/wordlist.fetch.js';
+import { getEnglishVerbList } from './modules/wordlist.fetch.js';
 
-GetEnglishVerbList()
+getEnglishVerbList()
 	.then((result) => {
-		console.log(result.body);
+		console.log(result);
 	})
 	.catch((reason) => {
 		console.error(reason);
