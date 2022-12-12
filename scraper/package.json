@@ -1,16 +1,18 @@
 {
-  "name": "scraper",
-  "version": "0.0.1",
-  "description": "A simple web scraper to find the words",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ties den Ouden <denouden.ties@gmail.com>",
-  "license": "ISC",
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
-    "got": "^12.5.3",
-    "puppeteer": "^19.4.0"
-  }
+	"name": "scraper",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "A simple web scraper to find the words",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js"
+	},
+	"author": "Ties den Ouden <denouden.ties@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.12",
+		"got": "^12.5.3",
+		"puppeteer": "^19.4.0"
+	}
 }
