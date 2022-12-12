@@ -1,0 +1,11 @@
+{
+  "name": "scraper",
+  "version": "0.0.1",
+  "description": "A simple web scraper to find the words",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ties den Ouden <denouden.ties@gmail.com>",
+  "license": "ISC"
+}
