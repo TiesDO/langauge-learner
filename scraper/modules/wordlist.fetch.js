@@ -1,22 +1,8 @@
 import got from 'got';
 import { parseEnglishVerbTable } from './wordlist.parse.js';
 
-export const getEnglishVerbList = () => {
+export const fetchEnglishVerbList = () => {
 	return new Promise(async (res, rej) => {
-		// got
-		// 	.get('https://www.linguasorb.com/english/verbs/most-common-verbs/')
-		// 	.then((result) => {
-		// 		try {
-		// 			const parsed = parseEnglishVerbTable(result.body);
-		// 			res(parsed);
-		// 		} catch (err) {
-		// 			rej(err);
-		// 		}
-		// 	})
-		// 	.catch((reason) => {
-		// 		rej(reason);
-		// 	});
-
 		try {
 			// get all 4 pages
 			const p1 = got(
