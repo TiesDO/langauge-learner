@@ -1,11 +1,11 @@
 import { Router } from 'express';
-import { DB } from '../dep.js';
+import { DB, Queries } from '../dep.js';
 import { allowAnonymous } from '../modules/middleware/authentication.middleware.js';
 
 const router = Router();
 
 router.get('/', allowAnonymous, (req, res) => {
-	DB.queries;
+	console.log(Queries);
 
 	return res.send('z');
 });
